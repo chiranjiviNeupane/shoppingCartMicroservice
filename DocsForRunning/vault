@@ -1,0 +1,11 @@
+Vault:
+  Start vault with:: vault server -dev
+  
+  Open another terminal
+  
+  exposing the port for vault:: export VAULT_ADDR=’http://127.0.0.1:8200′  
+  
+  writing json file that contains db info:: vault kv put secret/catalogservice @Desktop/ catalogservice.json
+  
+  checking the file:: vault kv get secret/catalogservice
+		
