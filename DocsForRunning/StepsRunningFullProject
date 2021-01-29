@@ -1,0 +1,6 @@
+Run server
+Run mysql
+Run Eureka-server
+Run vault, check token of vault and update in each services properties
+Write the secret key pair on vault
+Run Microservices
